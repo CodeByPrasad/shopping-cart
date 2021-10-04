@@ -1,0 +1,56 @@
+.login-form {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+.login-form h2 {
+  text-align: center;
+  color: rgba(24, 23, 23, 0.904);
+}
+label {
+  color: #5555dd;
+}
+.username-container {
+  padding: 0 20px;
+
+  font-size: 2ch;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-top: 10px;
+}
+.pass-container {
+  padding: 20px;
+  font-size: 2ch;
+
+  display: flex;
+  flex-direction: column;
+}
+.button-container {
+  text-align: center;
+  padding-top: 10px;
+}
+.button {
+  background-color: rgb(77, 77, 184);
+  cursor: pointer;
+
+  color: white;
+  border-radius: 5px;
+}
+.login-wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.remember-link {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: rgb(66, 66, 228);
+}
+.resisterlink{
+    cursor: pointer;
+}

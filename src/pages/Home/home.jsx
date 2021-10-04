@@ -1,9 +1,19 @@
 import React from 'react';
+import './Home.css';
+
+
 
 function HomePage(props) {
+    
+    
     return (
         <div>
-            home page
+             <p>
+                This is Shopping cart
+            </p>
+            <h1>
+                samrat
+            </h1>
         </div>
     );
 }
