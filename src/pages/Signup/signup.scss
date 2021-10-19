@@ -1,3 +1,30 @@
+
+.signup-wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+
+label {
+  text-align: left;
+}
+.notification {
+  padding: 15px;
+}
+button {
+  margin-top: 10px;
+  
+  background-color: rgb(103, 88, 238);
+  border-radius: 5px;
+}
+input {
+  border-radius: 5px;
+}
+.signbutton{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+}
 .Sign-in {
   text-align: center;
   background-color: rgb(236, 236, 243);
@@ -11,29 +38,5 @@ h3 {
   padding: 15px;
 }
 
-.login-wrapper {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-}
-label {
-  text-align: left;
-}
-.notification {
-  padding: 15px;
-}
-button {
-  margin-top: 10px;
-  padding-inline: 100px;
-  background-color: rgb(103, 88, 238);
-  border-radius: 5px;
-}
-input {
-  border-radius: 5px;
-}
-.Loginbutton{
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-    font-size: 16px;
+
 }

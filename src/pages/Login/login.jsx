@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 
-import './login.css';
+import './login.scss';
 function LoginPage(props) {
     let history = useHistory();
 
@@ -47,12 +47,14 @@ function LoginPage(props) {
             <div className="resisterlink" onClick={handleClick}>Resister Here</div>
           </div>
 
-          <div className="button-container">
-            <button className="button" onClick={handleClickhome}>Login</button>
+         <div className="Buttonl">   <button onClick={handleClickhome}>Login</button></div>
+        
+           
           </div>
-        </div>
+        
       </div>
     </div>
+    
   );
 }
 

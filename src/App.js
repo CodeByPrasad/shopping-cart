@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import LoginPage from './pages/Login/login';
 import SignupPage from './pages/Signup/signup';
 import HomePage from './pages/Home/home';
+import javas from './pages/javas';
 
 function App() {
   return (
@@ -20,8 +21,9 @@ function App() {
           </Route>
           <Route path="/home">
             <HomePage />
+            </Route>
 
-          </Route>
+            
           
         </div>
       </Router>

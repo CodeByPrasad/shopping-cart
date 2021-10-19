@@ -1,21 +1,16 @@
-import React from 'react';
-import './Home.css';
-
-
+import React from "react";
+import ShoppingCard from "../../components/shopping-card/shopping-card";
+import Data from "../../utils/data";
+import "./Home.scss";
 
 function HomePage(props) {
-    
-    
-    return (
-        <div>
-             <p>
-                This is Shopping cart
-            </p>
-            <h1>
-                samrat
-            </h1>
-        </div>
-    );
+  return (
+    <div className="home-container">
+        {Data.map((item) => (
+            <ShoppingCard key={item.id} data={item}/>
+        ))}
+    </div>
+  );
 }
 
 export default HomePage;

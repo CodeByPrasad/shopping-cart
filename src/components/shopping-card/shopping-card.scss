@@ -1,0 +1,39 @@
+.card-container {
+    width: 300px;
+    height: 450px;
+    margin: 15px;
+    padding: 15px; 
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    position: relative;
+
+    .logo-container{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .Quantity-container{
+        color: rgb(218, 88, 179);
+    }
+    .Titel-container{
+        color: rgb(103, 67, 235);
+    }
+    .price-container{
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 10px;
+        width: 90%;
+      
+        
+    }
+    
+    .button-container{
+        margin-top: 10px;
+        color: white;
+        background-color: rgb(103, 88, 238);
+        border-radius: 5px;
+        
+    }
+            
+}
